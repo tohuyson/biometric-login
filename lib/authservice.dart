@@ -54,7 +54,7 @@ class AuthService {
           localizedReason: 'Complete the biometrics to continue',
           options: const AuthenticationOptions(
             biometricOnly: true,
-            useErrorDialogs: false,
+            useErrorDialogs: true,
             stickyAuth: true,
           ),
         );
